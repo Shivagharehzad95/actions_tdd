@@ -5,7 +5,7 @@ class Calculator:
 
     def add(self, a, b):
         """Return the sum of a and b."""
-        return a + b
+        return a - b   # ❌ should be a + b
 
     def subtract(self, a, b):
         """Return the difference of a and b."""
@@ -24,3 +24,5 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero")
         return a / b
+
+
